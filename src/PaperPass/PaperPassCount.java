@@ -7,35 +7,14 @@ public class PaperPassCount {
     public static void main(String[] args) {
 
         String originalPath;
-        String[] OriginalArray = new String[1000];
-        Reader reader = null;
+        String[] originalArray = new String[1000];
 
         Scanner in = new Scanner(System.in);
         System.out.println("请输入原文路径:");
         originalPath = in.nextLine();
+        originalArray = TxtToArray(originalPath);
 
-        try {
-            reader = new InputStreamReader(new FileInputStream(new File(originalPath)));
-            int tempchar;
-            int n = 0;
-            String sentence = "";
-            while ((tempchar = reader.read()) != -1) {
-                switch (JudgeType(tempchar)) {
-                    case 1:
-                        if (sentence.equals("")) break;
-                        OriginalArray[n++] = sentence;
-                        sentence = "";
-                        break;
-                    case 2:
-                        sentence = sentence + (char) (tempchar);
-                    default:
-                        break;
-                }
-            }
-            reader.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
     }
 
     private static int JudgeType(int tempchar) {
@@ -49,5 +28,32 @@ public class PaperPassCount {
         else return 2;
     }
 
+    private static String[] TxtToArray(String paperPath) {
+        String[] sentenceArray = new String[1000];
+        try {
+            Reader reader = null;
+            reader = new InputStreamReader(new FileInputStream(new File(paperPath)));
+            int tempchar;
+            int n = 0;
+            String sentence = "";
+            while ((tempchar = reader.read()) != -1) {
+                switch (JudgeType(tempchar)) {
+                    case 1:
+                        if (sentence.equals("")) break;
+                        sentenceArray[n++] = sentence;
+                        sentence = "";
+                        break;
+                    case 2:
+                        sentence = sentence + (char) (tempchar);
+                    default:
+                        break;
+                }
+            }
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return sentenceArray;
+    }
 }
 

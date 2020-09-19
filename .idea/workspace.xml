@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2163a668-bcf1-4756-a851-562050f5481d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/3118005375/PaperPass/PaperPassCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3118005375/PaperPass/PaperPassCount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PaperPass/PaperPassCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaperPass/PaperPassCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,14 +67,31 @@
       <option name="presentableId" value="Default" />
       <updated>1600484248026</updated>
       <workItem from="1600484250350" duration="340000" />
-      <workItem from="1600484622060" duration="7172000" />
+      <workItem from="1600484622060" duration="7681000" />
+      <workItem from="1600498231947" duration="1292000" />
     </task>
+    <task id="LOCAL-00001" summary="0.1.0 提取原文句子功能实现">
+      <created>1600497740080</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600497740080</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0.1.0 提取原文句子功能实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1.0 提取原文句子功能实现" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1600497732579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600497732579" />
     <state width="461" height="466" key="DebuggerActiveHint" timestamp="1600497228950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -83,42 +100,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600497186241" />
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1600497047972">
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1600500253794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600497047972" />
-    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1600497047972">
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600500253794" />
+    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1600500253794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600497047972" />
-    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1600497047972">
+    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600500253794" />
+    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1600500253794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600497047972" />
-    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1600497047972">
+    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600500253794" />
+    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1600500253794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600497047972" />
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1600497050964">
+    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600500253794" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1600500253795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600497050964" />
-    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1600497050964">
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600500253795" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1600500253795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600497050964" />
-    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1600497050964">
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600500253795" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1600500253794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600497050964" />
-    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1600497050964">
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600500253794" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1600500253795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600497050964" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1600484630650">
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600500253795" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1600498299799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600484630650" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600498299799" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600484419321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -127,5 +144,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="511" y="256" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600489225225" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PaperPass/PaperPassCount.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
