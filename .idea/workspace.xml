@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2163a668-bcf1-4756-a851-562050f5481d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/3118005375/PaperPass/PaperPassCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/3118005375/PaperPass/PaperPassCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PaperPass/PaperPassCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaperPass/PaperPassCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <workItem from="1600569757894" duration="3607000" />
       <workItem from="1600578919334" duration="279000" />
       <workItem from="1600579222278" duration="1234000" />
-      <workItem from="1600586300151" duration="1123000" />
+      <workItem from="1600586300151" duration="1228000" />
     </task>
     <task id="LOCAL-00001" summary="0.1.0 提取原文句子功能实现">
       <created>1600497740080</created>
@@ -96,16 +94,35 @@
       <option name="project" value="LOCAL" />
       <updated>1600500392611</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.0.0 查重算法完成">
+      <created>1600587479912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600587479912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0.1.0 提取原文句子功能实现" />
     <MESSAGE value="0.1.1 优化代码构建" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.1.1 优化代码构建" />
+    <MESSAGE value="1.0.0 查重算法完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.0 查重算法完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1600587468829">
@@ -124,22 +141,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600578899527" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1600587484801">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1600587528374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600587484801" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1600587484801">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600587528374" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1600587528373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600587484801" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1600587484801">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600587528373" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1600587528373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600587484801" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1600587484801">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600587528373" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1600587528373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600587484801" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600587528373" />
     <state width="1877" height="309" key="GridCell.Tab.1.bottom" timestamp="1600580461252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -160,10 +177,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600579675690" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1600586301753">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1600587614266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600586301753" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600587614266" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600500403502">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

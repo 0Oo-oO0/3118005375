@@ -122,7 +122,7 @@ public class PaperPassCount {
         similarityPercentage = (similarityPercentage / wordNum) - 0.1;
         try {
             BufferedWriter out = new BufferedWriter(new FileWriter(ansPath));
-            out.write("论文重复率为:" + similarityPercentage + "%");
+            out.write("论文重复率为:" + similarityPercentage);
             out.close();
         } catch (IOException e) {
             e.printStackTrace();
