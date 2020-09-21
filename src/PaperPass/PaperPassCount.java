@@ -34,13 +34,13 @@ public class PaperPassCount {
                 || (char) tempchar == '—' || (char) tempchar == '；')
             return 0;   //忽略
         else if ((char) tempchar == '。' || (char) tempchar == '!' || (char) tempchar == '？' || (char) tempchar == '\n'
-                || (char) tempchar == ';')
+                || (char) tempchar == ';' || (char) tempchar == '>')
             return 1;   //判定为句子
         else return 2;
     }
 
     private static String[] TxtToArray(String paperPath) {
-        String[] sentenceArray = new String[1000];
+        String[] sentenceArray = new String[2000];
         try {
             Reader reader = null;
             reader = new InputStreamReader(new FileInputStream(new File(paperPath)));
