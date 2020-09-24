@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2163a668-bcf1-4756-a851-562050f5481d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2163a668-bcf1-4756-a851-562050f5481d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +11,7 @@
     <favorites_list name="3118005375" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1hiBthDOEa9aWDFxtGBuG0n7gsa" />
@@ -27,6 +25,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -74,6 +73,7 @@
       <workItem from="1600586300151" duration="1228000" />
       <workItem from="1600858942305" duration="93000" />
       <workItem from="1600914465493" duration="950000" />
+      <workItem from="1600915666787" duration="836000" />
     </task>
     <task id="LOCAL-00001" summary="0.1.0 提取原文句子功能实现">
       <created>1600497740080</created>
@@ -146,10 +146,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="1.2.0 完善其余部分" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1600914964507">
+    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1600916741523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600914964507" />
+    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600916741523" />
     <state width="461" height="466" key="DebuggerActiveHint" timestamp="1600497228950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -162,22 +162,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600578899527" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1600915416057">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1600916726491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600915416057" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1600915416057">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600916726491" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1600916726491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600915416057" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1600915416057">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600916726491" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1600916726490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600915416057" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1600915416057">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600916726490" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1600916726491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600915416057" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600916726491" />
     <state width="1877" height="309" key="GridCell.Tab.1.bottom" timestamp="1600666020314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
