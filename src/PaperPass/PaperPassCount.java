@@ -21,9 +21,7 @@ public class PaperPassCount {
         System.out.println("请输入查重论文路径:");
         addPath = in.nextLine();
         addArray = TxtToArray(addPath);
-        System.out.println("请输入结果存放路径:");
-        ansPath = in.nextLine();
-        PaperPass(originalArray, addArray, ansPath);
+        PaperPass(originalArray, addArray);
 
     }
 
@@ -67,7 +65,7 @@ public class PaperPassCount {
         return sentenceArray;
     }
 
-    private static void PaperPass(String[] originalArray, String[] addArray, String ansPath) {
+    private static void PaperPass(String[] originalArray, String[] addArray) {
         double similarityPercentage = 0;
         double sentencePercentage;
         double wordNum = 0;
@@ -119,14 +117,10 @@ public class PaperPassCount {
             }
             similarityPercentage += (sentencePercentage * doc1.length());
         }
-        similarityPercentage = (similarityPercentage / wordNum) - 0.1;
-        try {
-            BufferedWriter out = new BufferedWriter(new FileWriter(ansPath));
-            out.write("论文重复率为:" + similarityPercentage);
-            out.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        similarityPercentage = similarityPercentage / wordNum * 100;
+        java.text.DecimalFormat df = new java.text.DecimalFormat("#.00");
+        df.format(similarityPercentage);
+        System.out.println("论文重复率为" + similarityPercentage + "%");
     }
 }
 
