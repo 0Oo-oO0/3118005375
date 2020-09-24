@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="第一次作业:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2163a668-bcf1-4756-a851-562050f5481d" name="Default Changelist" comment="1.2.0 完善其余部分" />
+    <list default="true" id="2163a668-bcf1-4756-a851-562050f5481d" name="Default Changelist" comment="1.2.0 完善其余部分">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/3118005375.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +20,15 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="3118005375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -25,16 +45,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/hamcrest-core-1.3.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="PaperPass" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="PaperPass" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PaperPassCount">
     <configuration name="PaperPassCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PaperPass.PaperPassCount" />
       <module name="3118005375" />
@@ -48,9 +80,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaperPassCountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3118005375" />
+      <extension name="coverage" runner="jacoco">
+        <pattern>
+          <option name="PATTERN" value="PaperPass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PaperPass" />
+      <option name="MAIN_CLASS_NAME" value="PaperPass.PaperPassCountTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PaperPassCount" />
+      <item itemvalue="JUnit.PaperPassCountTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PaperPassCount" />
+        <item itemvalue="JUnit.PaperPassCountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -74,6 +128,9 @@
       <workItem from="1600858942305" duration="93000" />
       <workItem from="1600914465493" duration="950000" />
       <workItem from="1600915666787" duration="955000" />
+      <workItem from="1600916826236" duration="4232000" />
+      <workItem from="1600922384073" duration="224000" />
+      <workItem from="1600922620560" duration="900000" />
     </task>
     <task id="LOCAL-00001" summary="0.1.0 提取原文句子功能实现">
       <created>1600497740080</created>
@@ -146,6 +203,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="1.2.0 完善其余部分" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600923209251">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600923209251" />
+    <state x="690" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600917293085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600917293085" />
     <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1600916741523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -158,26 +223,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600500410165" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600916786105">
+    <state x="821" y="277" key="FileChooserDialogImpl" timestamp="1600922180925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600916786105" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1600916787608">
+    <state x="821" y="277" key="FileChooserDialogImpl/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600922180925" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1600923521602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600916787608" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1600916787608">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600923521602" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1600923521602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600916787608" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1600916787608">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600923521602" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1600923521602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600916787608" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1600916787608">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600923521602" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1600923521602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600916787608" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600923521602" />
     <state width="1877" height="309" key="GridCell.Tab.1.bottom" timestamp="1600666020314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -194,21 +259,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="309" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600666020314" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1600922667143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600922667143" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1600579675690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600579675690" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1600914466452">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1600922625328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600914466452" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600922625328" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600500403502">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600500403502" />
+    <state x="731" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600922735032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600922735032" />
     <state x="511" y="256" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600489225225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="511" y="256" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600489225225" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$PaperPassCountTest.exec" NAME="PaperPassCountTest Coverage Results" MODIFIED="1600923068257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PaperPass.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/$PaperPassCount.ic" NAME="PaperPassCount Coverage Results" MODIFIED="1600923219318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PaperPass.*</FILTER>
+    </SUITE>
   </component>
 </project>
