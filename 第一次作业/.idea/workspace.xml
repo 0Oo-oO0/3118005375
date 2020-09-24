@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2163a668-bcf1-4756-a851-562050f5481d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PaperPass/PaperPassCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaperPass/PaperPassCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <workItem from="1600579222278" duration="1234000" />
       <workItem from="1600586300151" duration="1228000" />
       <workItem from="1600858942305" duration="93000" />
-      <workItem from="1600914465493" duration="479000" />
+      <workItem from="1600914465493" duration="950000" />
     </task>
     <task id="LOCAL-00001" summary="0.1.0 提取原文句子功能实现">
       <created>1600497740080</created>
@@ -111,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600666019206</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.2.0 完善其余部分">
+      <created>1600914971997</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600914971997</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +142,8 @@
     <MESSAGE value="1.0.0 查重算法完成" />
     <MESSAGE value="1.1.0 调整查重算法" />
     <MESSAGE value="1.1.1 优化查重算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1.1 优化查重算法" />
+    <MESSAGE value="1.2.0 完善其余部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2.0 完善其余部分" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1600914964507">
@@ -155,22 +162,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600578899527" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1600914745817">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1600915416057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600914745817" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1600914745817">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600915416057" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1600915416057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600914745817" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1600914745817">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600915416057" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1600915416057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600914745817" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1600914745817">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600915416057" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1600915416057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600914745817" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.119.1536.824@0.0.1920.1040" timestamp="1600915416057" />
     <state width="1877" height="309" key="GridCell.Tab.1.bottom" timestamp="1600666020314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
